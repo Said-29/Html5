@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel = "stylesheet" href="style.css">
+    </head>
+   
+    <header>
+        <div id="header_bar" class="header_bar">
+            <img src="./images/logo.png" alt="Company Logo" width=80>
+            <h1>My Company</h1>
+            <nav>
+              <a href="../../index.html">Home</a>
+              <a href="../careers/index.html">Careers</a>
+              <a href="../blog/index.html">Blog</a>
+              <a href="#">Contact Us</a>
+            </nav>
+          </div>
+          <div id="banner" class="banner">
+            <img src="./images/banner.png" alt="Banner image">
+          </div>
+    </header>
+
+    <body>
+        <main class="container py-4">  
+            <h4 class="d-grid gap-10 pb-2"><strong>Contact Us</strong></h4> 
+            <article> 
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-5" >
+                        <img src="images/imgContactUs.png" width="510" height="mx-auto" alt="Image" class="feature">   
+                    </div>       
+                    <div class="col-md-7">
+                        <h4 class="mb-3">Tell us everything...</h4>
+                        <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                            <label for="email" class="form-label"><b>Email</b></label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                            </div>
+                
+                            <div class="col-sm-6">
+                            <label for="firstName" class="form-label"><b>First name</b></label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="cellphone" class="form-label"><b>Cellphone</b></label>
+                                <input type="number" class="form-control"  placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid first name is required.
+                                </div>
+                            </div>
+                
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label"><b>Last name</b></label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid last name is required.
+                                </div>  
+                            </div>
+                
+                            <div class="col-md-12">
+                                <label for="share" class="form-label"> <b>You want to share...</b> </label>
+                                <select class="form-select" id="country" required>
+                                <option value="">Choose...</option>
+                                <option>Complaint</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                Please select a valid country.
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="ShareYourThoughts" class="from-label pb-2"> <b> Share your thoughts...</b></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="w-100 btn btn-outline-danger btn-sm" type="submit"> SEND TO ADVISOR</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+
+    <div>
+        <footer>
+            <div class="text-left p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                &copy; Copyright My Company 2023
+            </div>
+        </footer>
+    </div>
+
+</html>

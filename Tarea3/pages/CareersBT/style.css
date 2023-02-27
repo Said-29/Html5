@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_bar{
+    display: flex;
+    align-items: center;
+}
+
+.header_bar h1{
+    color:#F14764;
+}
+
+.header_bar nav{
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.header_bar a{
+    color: black;
+    padding: 2em;
+}
+
+.header_bar a:hover{
+    color: #F14764;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.Gray{
+    background-color: rgb(233, 227, 227);
+    border-bottom: #F14764 solid 1px;
+}
+
+table tr th{
+    background-color: rgb(241, 71, 100);
+    color: white;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+}
+
+footer {
+    background-color: rgb(217, 217, 217);
+    display: flex;
+}
+
+footer p {
+    text-indent: 2em;
+}
+
+aside h3{
+    color: #F14764;
+}
+
+aside{
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #F5F5F5;
+}
+
+aside a{
+    color: black;
+}
+
+aside a:hover{
+    color: #F14764;
+}
+
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    column-width: 100;
+}
+
+.tabla th, .tabla td{
+    border: none;
+}
+
+.button {
+    background-color: rgb(233, 227, 227);
+    border: rgb(158, 158, 158) solid 1px;
+    color: BLACK;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+section{
+    padding: 2em 4em 2em 4em;
+}
+
+p + h4{
+    color:rgb(241, 71, 100);
+}
+
+thead{
+    background-color: #F2526E;
+    ;
+}
