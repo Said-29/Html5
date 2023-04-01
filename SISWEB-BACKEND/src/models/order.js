@@ -5,8 +5,8 @@ const {
 module.exports = (sequelize, DataTypes) => {
   class Order extends Model {
     static associate(models) {
-      this.belongsTo(models.Order)
-      this.hasMany(models.Products, {through: "OrderProducts"})
+      this.belongsTo(models.User)
+      this.belongsToMany(models.Product, {through: "OrderProducts"})
     }
   }
   Order.init({
